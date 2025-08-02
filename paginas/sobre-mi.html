@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/recursos/iconos/favicon.png" type="image/svg+xml" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <title>Sobre mí</title>
+  </head>
+
+  <body style="display: flex; flex-direction: column">
+    <nav class="barra-navegacion d-flex justify-content-end">
+      <div class="dropdown d-md-none">
+        <button
+          class="btn boton-menu d-flex justify-content-center align-items-center"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img src="/recursos/iconos/icono-menu.svg" alt="burguer-icon" />
+        </button>
+
+        <ul class="lista-menu-burguer dropdown-menu">
+          <li>
+            <a class="dropdown-item text-end" href="/index.html">Portafolio</a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item text-end pag-activa"
+              href="/paginas/sobre-mi.html"
+              >Sobre mí</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item text-end" href="/paginas/contacto.html"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <ul class="lista-menu d-md-flex d-none">
+        <li>
+          <a class="" href="/index.html">Portafolio</a>
+        </li>
+        <li>
+          <a class="pag-activa" href="/paginas/sobre-mi.html">Sobre mí</a>
+        </li>
+        <li>
+          <a class="" href="/paginas/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="w-100 h-100">
+      <div class="contenedor-titulo-h1">
+        <h1>Sobre mí</h1>
+      </div>
+      <section class="contenedor-sobre-mi flex-md-row flex-column">
+        <div class="texto-sobre-mi">
+          <h2 class="text-md-start text-center">Biografía</h2>
+          <p class="text-md-start text-justify">
+            Mi nombre es Yoav y actualmente tengo 20 años. Nací el 28 de junio
+            de 2005 en Tulancingo, Hidalgo, México. A lo largo de mi vida cursé
+            mis estudios en el estado de Hidalgo, exceptuando la educación de
+            nivel superior. Actualmente me encuentro estudiando la licenciatura
+            en Diseño de la Comunicación Gráfica en la Universidad Autónoma
+            Metropolitana, Unidad Azcapotzalco.
+          </p>
+        </div>
+        <div class="contenido-sobre-mi d-flex justify-content-center">
+          <img
+            src="/recursos/imagenes/img-sobre-mi1.jpeg"
+            alt="Descripción de la imagen"
+          />
+        </div>
+      </section>
+      <section class="contenedor-sobre-mi flex-md-row-reverse flex-column">
+        <div class="texto-sobre-mi">
+          <h2 class="text-md-end text-center">Hobbies</h2>
+          <p class="text-md-end text-justify">
+            Entre mis principales pasatiempos se encuentra escuchar música,
+            salir con mis amigos, practicar deportes de manera recreativa e ir
+            al gimnasio. También disfruto participar en actividades artísticas,
+            especialmente la fotografía, el dibujo y la música, ya que me
+            permiten expresar mi creatividad y mantenerme en constante
+            aprendizaje.
+          </p>
+
+          <h3 class="text-md-end text-center">Fotografía</h3>
+          <p class="text-md-end text-justify">
+            Hoy en día me desempeño de forma activa en el ámbito de la
+            fotografía social. Generalmente trabajo los fines de semana en
+            eventos dentro del estado de Hidalgo, cuando no me encuentro en la
+            Ciudad de México. En ocasiones he tenido la oportunidad de trabajar
+            en otros estados de la república, lo cual me ha permitido adquirir
+            experiencia y ampliar mi visión profesional.
+          </p>
+        </div>
+        <div class="contenido-sobre-mi d-flex justify-content-center">
+          <video autoplay muted loop>
+            <source src="/recursos/videos/video1.mp4" type="video/mp4" />
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </div>
+      </section>
+      <section class="contenedor-sobre-mi flex-md-row flex-column">
+        <div class="texto-sobre-mi">
+          <h2 class="text-md-start text-center">Planes a futuro</h2>
+          <p class="text-md-start text-justify">
+            Una vez concluidos mis estudios universitarios, me gustaría
+            continuar dedicándome a la fotografía, pero enfocado en otro
+            mercado: la fotografía de conciertos. Este campo llama profundamente
+            mi atención porque representa una fusión perfecta entre varios de
+            mis intereses: la música, la fotografía y el poder compartir
+            experiencias con amigos mientras disfruto del ambiente artístico.
+          </p>
+        </div>
+        <div class="contenido-sobre-mi d-flex justify-content-center">
+          <img
+            src="/recursos/imagenes/img-sobre-mi2.jpeg"
+            alt="Descripción de la imagen"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="texto-footer">
+        <p>&copy; Mi Portafolio 2025</p>
+      </div>
+      <div class="redes-footer">
+        <a href="https://www.instagram.com/yoav_lens?igsh=MXV3bTJ2Ym84ODNieg==">
+          <img
+            src="/recursos/iconos/icono-instagram.svg"
+            alt="Instagram Icon"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
